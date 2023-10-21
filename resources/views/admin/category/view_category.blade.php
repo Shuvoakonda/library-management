@@ -1,4 +1,4 @@
-@extends('admin.dashboard.admin-dashboard')
+@extends('admin.layouts.app')
 @section('content')
     @if (session()->has('message'))
         <div class="alert alert-success">
