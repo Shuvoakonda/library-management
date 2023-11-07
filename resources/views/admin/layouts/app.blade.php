@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin-Dashboard</title>
+    <title>Library-Dashboard</title>
 
     <!--plugins-->
     <link href="{{ asset('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet">
@@ -27,6 +27,9 @@
     <link href="{{ asset('assets/css/semi-dark-theme.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/minimal-theme.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/shadow-theme.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -74,51 +77,12 @@
                                         </div>
                                     </a>
                                 </div>
+
                                 <div class="col">
                                     <a href="javascript:;">
                                         <div class="app-box text-center">
                                             <div class="app-icon">
-                                                <img src="assets/images/icons/behance.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Behance</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/google-drive.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Dribble</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/outlook.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Outlook</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/github.png" width="30"
-                                                    alt="">
+                                                <img src="assets/images/icons/github.png" width="30" alt="">
                                             </div>
                                             <div class="app-name">
                                                 <p class="mb-0 mt-1">GitHub</p>
@@ -126,45 +90,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/stack-overflow.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Stack</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/figma.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Stack</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/twitter.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Twitter</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
+
                                 <div class="col">
                                     <a href="javascript:;">
                                         <div class="app-box text-center">
@@ -204,58 +130,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/pinterest.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Photos</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/linkedin.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">linkedin</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/dribble.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Dribble</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/youtube.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">YouTube</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
+
                                 <div class="col">
                                     <a href="javascript:;">
                                         <div class="app-box text-center">
@@ -269,32 +144,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/envato.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Envato</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="javascript:;">
-                                        <div class="app-box text-center">
-                                            <div class="app-icon">
-                                                <img src="assets/images/icons/safari.png" width="30"
-                                                    alt="">
-                                            </div>
-                                            <div class="app-name">
-                                                <p class="mb-0 mt-1">Safari</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
+
 
                             </div><!--end row-->
 
@@ -472,7 +322,7 @@
                 <img src="assets/images/logo-icon.png" class="logo-img" alt="">
             </div>
             <div class="logo-name flex-grow-1">
-                <h5 class="mb-0">Admin Dashboard</h5>
+                <h5 class="mb-0">Library</h5>
             </div>
             <div class="sidebar-close ">
                 <span class="material-symbols-outlined">close</span>
@@ -484,363 +334,30 @@
             <ul class="metismenu" id="menu">
                 <li>
                     <a href="{{ route('main_index') }}">
-                        <div class="parent-icon"><span class="material-symbols-outlined">home</span>
+                        <div class="parent-icon">
                         </div>
-                        <div class="menu-title">Dashboard</div>
+                        <div class="menu-title">Library Dashboard</div>
                     </a>
                 </li>
 
-                <a href="{{ route('view_category') }}">
-                    <div class="parent-icon"><span class="material-symbols-outlined">category</span>
+                
+                <a href="{{ route('view_books') }}">
+                    <div class="parent-icon">
                     </div>
-                    <div class="menu-title">categories</div>
+                    <div class="menu-title"><i class="fa-solid fa-book me-1"></i>View Books</div>
+                </a>
+                <a href="{{ route('book') }}">
+                    <div class="parent-icon">
+                    </div>
+                    <div class="menu-title"><i class="fa-solid fa-book-open-reader me-1"></i>Book Add</div>
                 </a>
 
 
-                <li class="menu-label">UI Elements</li>
-                <li>
-                    <a href="javascript:;" class="has-arrow">
-                        <div class="parent-icon"><span class="material-symbols-outlined">widgets</span>
-                        </div>
-                        <div class="menu-title">Widgets</div>
-                    </a>
-                    <ul>
-                        <li> <a href="widget-data.html"><span class="material-symbols-outlined">arrow_right</span>Data
-                                Widget</a>
-                        </li>
-                        <li> <a href="widget-static.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Widget Static</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript:;" class="has-arrow">
-                        <div class="parent-icon"><span class="material-symbols-outlined">shopping_cart</span>
-                        </div>
-                        <div class="menu-title">eCommerce</div>
-                    </a>
-                    <ul>
-                        <li> <a href="ecommerce-add-product.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Add Product</a>
-                        </li>
-                        <li> <a href="ecommerce-products.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Products</a>
-                        </li>
-                        <li> <a href="ecommerce-customers.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Customers</a>
-                        </li>
-                        <li> <a href="ecommerce-customer-details.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Customer Details</a>
-                        </li>
-                        <li> <a href="ecommerce-orders.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Orders</a>
-                        </li>
-                        <li> <a href="ecommerce-customer-details.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Order Details</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">redeem</span>
-                        </div>
-                        <div class="menu-title">Components</div>
-                    </a>
-                    <ul>
-                        <li> <a href="component-alerts.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Alerts</a>
-                        </li>
-                        <li> <a href="component-accordions.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Accordions</a>
-                        </li>
-                        <li> <a href="component-badges.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Badges</a>
-                        </li>
-                        <li> <a href="component-buttons.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Buttons</a>
-                        </li>
-                        <li> <a href="component-cards.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Cards</a>
-                        </li>
-                        <li> <a href="component-lightbox.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Lightbox</a>
-                        </li>
-                        <li> <a href="component-carousels.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Carousels</a>
-                        </li>
-                        <li> <a href="component-list-groups.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>List Groups</a>
-                        </li>
-                        <li> <a href="component-media-object.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Media Objects</a>
-                        </li>
-                        <li> <a href="component-modals.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Modals</a>
-                        </li>
-                        <li> <a href="component-navs-tabs.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Navs & Tabs</a>
-                        </li>
-                        <li> <a href="component-paginations.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Pagination</a>
-                        </li>
-                        <li> <a href="component-popovers-tooltips.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Popovers & Tooltips</a>
-                        </li>
-                        <li> <a href="component-progress-bars.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Progress</a>
-                        </li>
-                        <li> <a href="component-spinners.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Spinners</a>
-                        </li>
-                        <li> <a href="component-notifications.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Notifications</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">add_reaction</span>
-                        </div>
-                        <div class="menu-title">Icons</div>
-                    </a>
-                    <ul>
-                        <li> <a href="icons-line-icons.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Line Icons</a>
-                        </li>
-                        <li> <a href="icons-boxicons.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Boxicons</a>
-                        </li>
-                        <li> <a href="icons-feather-icons.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Feather Icons</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-label">Forms & Tables</li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">diamond</span>
-                        </div>
-                        <div class="menu-title">Forms</div>
-                    </a>
-                    <ul>
-                        <li> <a href="form-elements.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Form Elements</a>
-                        </li>
-                        <li> <a href="form-input-group.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Input Groups</a>
-                        </li>
-                        <li> <a href="form-radios-and-checkboxes.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Radios & Checkboxes</a>
-                        </li>
-                        <li> <a href="form-layouts.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Forms Layouts</a>
-                        </li>
-                        <li> <a href="form-validations.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Form Validation</a>
-                        </li>
-                        <li> <a href="form-wizard.html"><span class="material-symbols-outlined">arrow_right</span>Form
-                                Wizard</a>
-                        </li>
-                        <li> <a href="form-file-upload.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>File Upload</a>
-                        </li>
-                        <li> <a href="form-date-time-pickes.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Date Pickers</a>
-                        </li>
-                        <li> <a href="form-select2.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Select2</a>
-                        </li>
-                        <li> <a href="form-repeater.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Form Repeater</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">backup_table</span>
-                        </div>
-                        <div class="menu-title">Tables</div>
-                    </a>
-                    <ul>
-                        <li> <a href="table-basic-table.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Basic Table</a>
-                        </li>
-                        <li> <a href="table-datatable.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Data Table</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-label">Pages</li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">lock_open</span>
-                        </div>
-                        <div class="menu-title">Authentication</div>
-                    </a>
-                    <ul>
-                        <li><a class="has-arrow" href="javascript:;"><span
-                                    class="material-symbols-outlined">arrow_right</span>Basic</a>
-                            <ul>
-                                <li><a href="auth-basic-login.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Login</a></li>
-                                <li><a href="auth-basic-register.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Register</a></li>
-                                <li><a href="auth-basic-forgot-password.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Forgot Password</a>
-                                </li>
-                                <li><a href="auth-basic-reset-password.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Reset Password</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="has-arrow" href="javascript:;"><span
-                                    class="material-symbols-outlined">arrow_right</span>Cover</a>
-                            <ul>
-                                <li><a href="auth-cover-login.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Login</a></li>
-                                <li><a href="auth-cover-reset-password.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Register</a></li>
-                                <li><a href="auth-cover-forgot-password.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Forgot Password</a>
-                                </li>
-                                <li><a href="auth-cover-reset-password.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Reset Password</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="has-arrow" href="javascript:;"><span
-                                    class="material-symbols-outlined">arrow_right</span>Boxed</a>
-                            <ul>
-                                <li><a href="auth-boxed-login.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Login</a></li>
-                                <li><a href="auth-boxed-register.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Register</a></li>
-                                <li><a href="auth-boxed-forgot-password.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Forgot Password</a>
-                                </li>
-                                <li><a href="auth-boxed-reset-password.html" target="_blank"><span
-                                            class="material-symbols-outlined">arrow_right</span>Reset Password</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="user-profile.html">
-                        <div class="parent-icon"><span class="material-symbols-outlined">account_circle</span>
-                        </div>
-                        <div class="menu-title">User Profile</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="timeline.html">
-                        <div class="parent-icon"><span class="material-symbols-outlined">hotel_class</span>
-                        </div>
-                        <div class="menu-title">Timeline</div>
-                    </a>
-                </li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">warning</span>
-                        </div>
-                        <div class="menu-title">Errors</div>
-                    </a>
-                    <ul>
-                        <li> <a href="pages-error-403.html" target="_blank"><span
-                                    class="material-symbols-outlined">arrow_right</span>403 Error</a>
-                        </li>
-                        <li> <a href="pages-error-404.html" target="_blank"><span
-                                    class="material-symbols-outlined">arrow_right</span>404 Error</a>
-                        </li>
-                        <li> <a href="pages-error-500.html" target="_blank"><span
-                                    class="material-symbols-outlined">arrow_right</span>500 Error</a>
-                        </li>
-                        <li> <a href="pages-coming-soon.html" target="_blank"><span
-                                    class="material-symbols-outlined">arrow_right</span>Coming Soon</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="faq.html">
-                        <div class="parent-icon"><span class="material-symbols-outlined">call</span>
-                        </div>
-                        <div class="menu-title">FAQ</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="pricing-table.html">
-                        <div class="parent-icon"><span class="material-symbols-outlined">currency_bitcoin</span>
-                        </div>
-                        <div class="menu-title">Pricing</div>
-                    </a>
-                </li>
-                <li class="menu-label">Charts & Maps</li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">monitoring</span>
-                        </div>
-                        <div class="menu-title">Charts</div>
-                    </a>
-                    <ul>
-                        <li> <a href="charts-apex.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Apex</a>
-                        </li>
-                        <li> <a href="charts-chartjs.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Chartjs</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">distance</span>
-                        </div>
-                        <div class="menu-title">Maps</div>
-                    </a>
-                    <ul>
-                        <li> <a href="map-google-maps.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Google Maps</a>
-                        </li>
-                        <li> <a href="map-vector-maps.html"><span
-                                    class="material-symbols-outlined">arrow_right</span>Vector Maps</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-label">Others</li>
-                <li>
-                    <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">toc</span>
-                        </div>
-                        <div class="menu-title">Menu Levels</div>
-                    </a>
-                    <ul>
-                        <li> <a class="has-arrow" href="javascript:;"><span
-                                    class="material-symbols-outlined">arrow_right</span>Level One</a>
-                            <ul>
-                                <li> <a class="has-arrow" href="javascript:;"><span
-                                            class="material-symbols-outlined">arrow_right</span>Level Two</a>
-                                    <ul>
-                                        <li> <a href="javascript:;"><span
-                                                    class="material-symbols-outlined">arrow_right</span>Level Three</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">receipt_long</span>
-                        </div>
-                        <div class="menu-title">Documentation</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:;">
-                        <div class="parent-icon"><span class="material-symbols-outlined">shop</span>
-                        </div>
-                        <div class="menu-title">Support</div>
-                    </a>
-                </li>
-            </ul>
-            <!--end navigation-->
+
+
+
+
+                <!--end navigation-->
 
 
         </div>
@@ -850,37 +367,18 @@
                     <img src="assets/images/avatars/01.png" alt="">
                 </div>
                 <div class="user-info">
-                    <h5 class="mb-0 user-name">Jhon Maxwell</h5>
-                    <p class="mb-0 user-designation">UI Engineer</p>
+                    <h5 class="mb-0 user-name">{{ auth()->user()->name }}</h5>
+                    <p class="mb-0 user-email">{{ auth()->user()->email }}</p>
                 </div>
             </div>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="javascript:;"><span class="material-symbols-outlined me-2">
-                            account_circle
-                        </span><span>Profile</span></a>
-                </li>
-                <li><a class="dropdown-item" href="javascript:;"><span class="material-symbols-outlined me-2">
-                            tune
-                        </span><span>Settings</span></a>
-                </li>
-                <li><a class="dropdown-item" href="javascript:;"><span class="material-symbols-outlined me-2">
-                            dashboard
-                        </span><span>Dashboard</span></a>
-                </li>
-                <li><a class="dropdown-item" href="javascript:;"><span class="material-symbols-outlined me-2">
-                            account_balance
-                        </span><span>Earnings</span></a>
-                </li>
-                <li><a class="dropdown-item" href="javascript:;"><span class="material-symbols-outlined me-2">
-                            cloud_download
-                        </span><span>Downloads</span></a>
-                </li>
+                
                 <li>
-                    <div class="dropdown-divider mb-0"></div>
-                </li>
-                <li><a class="dropdown-item" href="javascript:;"><span class="material-symbols-outlined me-2">
-                            logout
-                        </span><span>Logout</span></a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button class="dropdown-item"><span class="material-symbols-outlined me-2"></span> Logout
+                        </button>
+                    </form>
                 </li>
             </ul>
         </div>
@@ -902,128 +400,11 @@
     <div class="overlay btn-toggle-menu"></div>
     <!--end overlay-->
 
-    <!-- Search Modal -->
-    <div class="modal" id="exampleModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header gap-2">
-                    <div class="position-relative popup-search w-100">
-                        <input class="form-control form-control-lg ps-5 border border-3 border-primary" type="search"
-                            placeholder="Search">
-                        <span
-                            class="material-symbols-outlined position-absolute ms-3 translate-middle-y start-0 top-50">search</span>
-                    </div>
-                    <button type="button" class="btn-close d-xl-none" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="search-list">
-                        <p class="mb-1">Html Templates</p>
-                        <div class="list-group">
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action active align-items-center d-flex gap-2"><i
-                                    class="bi bi-filetype-html fs-5"></i>Best Html Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-award fs-5"></i>Html5 Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-box2-heart fs-5"></i>Responsive Html5 Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-camera-video fs-5"></i>eCommerce Html Templates</a>
-                        </div>
-                        <p class="mb-1 mt-3">Web Designe Company</p>
-                        <div class="list-group">
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-chat-right-text fs-5"></i>Best Html Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-cloud-arrow-down fs-5"></i>Html5 Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-columns-gap fs-5"></i>Responsive Html5 Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-collection-play fs-5"></i>eCommerce Html Templates</a>
-                        </div>
-                        <p class="mb-1 mt-3">Software Development</p>
-                        <div class="list-group">
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-cup-hot fs-5"></i>Best Html Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-droplet fs-5"></i>Html5 Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-exclamation-triangle fs-5"></i>Responsive Html5 Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-eye fs-5"></i>eCommerce Html Templates</a>
-                        </div>
-                        <p class="mb-1 mt-3">Online Shoping Portals</p>
-                        <div class="list-group">
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-facebook fs-5"></i>Best Html Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-flower2 fs-5"></i>Html5 Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-geo-alt fs-5"></i>Responsive Html5 Templates</a>
-                            <a href="javascript:;"
-                                class="list-group-item list-group-item-action align-items-center d-flex gap-2"><i
-                                    class="bi bi-github fs-5"></i>eCommerce Html Templates</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
-    <!--start theme customization-->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="ThemeCustomizer" aria-labelledby="ThemeCustomizerLable">
-        <div class="offcanvas-header border-bottom">
-            <h5 class="offcanvas-title" id="ThemeCustomizerLable">Theme Customizer</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <h6 class="mb-0">Theme Variation</h6>
-            <hr>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="LightTheme"
-                    value="option1">
-                <label class="form-check-label" for="LightTheme">Light</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="DarkTheme"
-                    value="option2" checked="">
-                <label class="form-check-label" for="DarkTheme">Dark</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="SemiDarkTheme"
-                    value="option3">
-                <label class="form-check-label" for="SemiDarkTheme">Semi Dark</label>
-            </div>
-            <hr>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MinimalTheme"
-                    value="option3">
-                <label class="form-check-label" for="MinimalTheme">Minimal Theme</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="ShadowTheme"
-                    value="option4">
-                <label class="form-check-label" for="ShadowTheme">Shadow Theme</label>
-            </div>
 
-        </div>
-    </div>
-    <!--end theme customization-->
+
+
 
 
     <!--plugins-->

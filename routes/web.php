@@ -14,12 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PagesController::class, 'index'])->name('home');
-Route::get('/main', [PagesController::class, 'main_index'])->name('main_index');
+Route::get('/', [PagesController::class, 'main_index'])->name('main_index')->middleware('auth');
+// Route::get('/main', [PagesController::class, 'main_index'])->name('main_index');
 
-Route::post('category_store',[PagesController::class,'category_store'])->name('category_store');
-Route::get('category',[PagesController::class,'add_category'])->name('add_category');
-Route::get('view_category',[PagesController::class,'view_category'])->name('view_category');
-Route::get('edit_category/{category}',[PagesController::class,'edit_category'])->name('edit_category');
-Route::post('update_category/{category}',[PagesController::class,'update_category'])->name('update_category');
-Route::get('delete_category/{category}',[PagesController::class,'delete_category'])->name('delete_category');
+
+
+Route::get('book',[PagesController::class,'book'])->name('book')->middleware('auth');
+Route::post('book_store',[PagesController::class,'book_store'])->name('book_store')->middleware('auth');
+Route::get('view_books',[PagesController::class,'view_books'])->name('view_books')->middleware('auth');
+Route::get('edit_book/{book}',[PagesController::class,'edit_book'])->name('edit_book')->middleware('auth');
+Route::post('update_book/{book}',[PagesController::class,'update_book'])->name('update_book')->middleware('auth');
+Route::get('delete_book/{book}',[PagesController::class,'delete_book'])->name('delete_book')->middleware('auth');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware('auth');
