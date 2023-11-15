@@ -334,30 +334,31 @@
             <ul class="metismenu" id="menu">
                 <li>
                     <a href="{{ route('main_index') }}">
-                        <div class="parent-icon">
-                        </div>
+                        <div class="parent-icon"><span class="material-symbols-outlined"><i class="fa-solid fa-house-user"
+                                    aria-hidden="true"></i></span></div>
                         <div class="menu-title">Library Dashboard</div>
                     </a>
                 </li>
+                <li>
+                    <a href="{{ route('students.index') }}">
+                        <div class="parent-icon"><span class="material-symbols-outlined "><i class="fa-solid fa-user"
+                                    aria-hidden="true"></i></span></div>
+                        <div class="menu-title">Students</div>
+                    </a>
+                </li>
 
-                
-                <a href="{{ route('view_books') }}">
-                    <div class="parent-icon">
-                    </div>
-                    <div class="menu-title"><i class="fa-solid fa-book me-1"></i>View Books</div>
+
+                <a href="{{ route('books.index') }}">
+                    <div class="parent-icon"><span class="material-symbols-outlined "><i class="fa-solid fa-book-open"
+                        aria-hidden="true"></i></span></div>
+                    <div class="menu-title">View Books</div>
                 </a>
-                <a href="{{ route('book') }}">
-                    <div class="parent-icon">
-                    </div>
-                    <div class="menu-title"><i class="fa-solid fa-book-open-reader me-1"></i>Book Add</div>
+                <a href="{{ route('assign.show') }}">
+                    <div class="parent-icon"><span class="material-symbols-outlined "><i class="fa-solid fa-book"
+                        aria-hidden="true"></i></span></div>
+                    <div class="menu-title">Assign Books</div>
                 </a>
 
-
-
-
-
-
-                <!--end navigation-->
 
 
         </div>
@@ -372,7 +373,7 @@
                 </div>
             </div>
             <ul class="dropdown-menu dropdown-menu-end">
-                
+
                 <li>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST">
                         @csrf
